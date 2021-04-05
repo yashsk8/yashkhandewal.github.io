@@ -847,11 +847,11 @@ section {
   width: calc(100% - 10px);
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 3px 3px 4px #a3baf47c, -3px 3px 4px #a3baf47c, 3px -3px 4px #a3baf47c, -3px -3px 4px #a3baf47c;
-  border-radius: 0.25rem;
+  box-shadow: 3px 3px 8px #a3baf47c, -3px 3px 8px #a3baf47c, 3px -3px 8px #a3baf47c, -3px -3px 8px #a3baf47c;
+  border-radius: 0.3rem;
 }
 .dashboard-cards .card:hover {
-      box-shadow: 0 17px 5px -10px #a3baf47c;
+      box-shadow: 8px 8px 8px #89a6f07c, -8px 8px 8px #89a6f07c, 8px -8px 8px #89a6f07c, -8px -8px 8px #89a6f07c;
   transition: all 0.3s ease;
 }
 .dashboard-cards .card .card-title {
@@ -863,7 +863,7 @@ section {
   padding-bottom: 5px;
   position: relative;
   z-index: 0;
-  border-radius: 0.25rem;
+  border-radius: 0.3rem;
 }
 
 .dashboard-cards .card .card-title h2 {
