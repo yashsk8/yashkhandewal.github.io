@@ -1072,6 +1072,11 @@ section {
 
 .contact .info .social-links {
   padding-left: 60px;
+  
+}
+
+.navbar{
+  justify-content: center;
 }
 
 .contact .info .social-links a {
