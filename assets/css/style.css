@@ -76,6 +76,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 15px;
   background: #001632;
   overflow-y: auto;
+  text-align: center !important;
 }
 
 #header .profile img {
@@ -92,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 #header .profile h1 a, #header .profile h1 a:hover {
