@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: 'Nunito', sans-serif !important;
+  font-family: 'Quicksand', sans-serif;
   color: #272829;
   background: #f3f3f3;
 }
@@ -25,7 +25,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -119,6 +119,10 @@ h1, h2, h3, h4, h5, h6 {
   background: #149ddd;
   color: #fff;
   text-decoration: none;
+}
+
+.hero-container h1{
+  font-family: 'Bitter', serif;
 }
 
 #main {
@@ -449,7 +453,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family:  'Quicksand', sans-serif;
   color: #050d18;
 }
 
@@ -886,10 +890,11 @@ section {
 
 .dashboard-cards .card .card-title h2 {
   font-size: 1rem;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.00em;
   font-weight: 600;
   margin: 0;
   padding: 0;
+  
 }
 
 .dashboard-cards .card .card-title h5 {
@@ -907,6 +912,7 @@ section {
   font-size: 14px;
   margin-top: 0px;
   letter-spacing: -0.025em;
+  
 }
 .dashboard-cards .card .card-description {
   position: relative;
