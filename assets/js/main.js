@@ -253,6 +253,12 @@
     })
   });
 
-
-
+  document.querySelectorAll('.card-description').forEach((ele) => {
+    ele.addEventListener('click', (e) => {
+      if(e.target.tagName.toLowerCase()==='a'){
+        e.stopPropagation();
+      }
+    });
+  });
+ 
 })()
