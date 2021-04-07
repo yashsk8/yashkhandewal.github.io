@@ -1,3 +1,7 @@
+---
+layout: home
+---
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -42,6 +46,9 @@
 </head>
 
 <body>
+
+
+
   <!-- ======= Mobile nav toggle button ======= -->
   <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
@@ -49,8 +56,9 @@
   <header id="header">
     <div class="d-flex flex-column">
       <div class="profile">
+        
         <img src="./assets/img/profile-pic-ysk.png" alt="" class="img-fluid rounded-circle" />
-        <h1 class="text-light"><a href="index.html">Yash Khandelwal</a></h1>
+        <h1 class="text-light"><a href="index.html">{{ site.data.index.myname }}</a></h1>
         <img src="./assets/img/—Pngtree—india flag transparent watercolor painted_5331382.png"
           style="border: none;  width: 30%; margin-top: 0px;">
         <div class="social-links mt-3 text-center">
@@ -88,7 +96,7 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
-      <h1>Yash Khandelwal</h1>
+      <h1>{{ site.data.index.myname }}</h1>
       <p>
         <span class="typed"
           data-typed-items="Software developer working at , Aero-modelling enthusiast, IIT (BHU) Alumni"></span>
@@ -1449,20 +1457,20 @@
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required  disabled/>
+                  <input type="text" name="name" class="form-control" id="name" required  />
                 </div>
                 <div class="form-group col-md-6">
                   <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required  disabled/>
+                  <input type="email" class="form-control" name="email" id="email" required  />
                 </div>
               </div>
               <div class="form-group">
                 <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" required  disabled/>
+                <input type="text" class="form-control" name="subject" id="subject" required  />
               </div>
               <div class="form-group">
                 <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required disabled></textarea>
+                <textarea class="form-control" name="message" rows="10" required ></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
@@ -1472,7 +1480,7 @@
                 </div>
               </div>
               <div class="text-center">
-                <button type="submit" disabled>Send Message</button>
+                <button type="submit" >Send Message</button>
               </div>
             </form>
           </div>

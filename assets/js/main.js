@@ -253,6 +253,9 @@
     })
   });
 
+  /**
+   * Prevent link propagation for link in card descriptions
+   */
   document.querySelectorAll('.card-description').forEach((ele) => {
     ele.addEventListener('click', (e) => {
       if(e.target.tagName.toLowerCase()==='a'){
@@ -260,5 +263,7 @@
       }
     });
   });
+
+
  
 })()
