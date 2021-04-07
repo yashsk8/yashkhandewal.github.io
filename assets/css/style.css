@@ -483,6 +483,7 @@ section {
 
 .resume {
   min-height: 100vh;
+  padding-bottom: 20vh;
 }
 
 .resumeSection{
@@ -866,8 +867,8 @@ section {
   padding: 0 !important;
   margin: 12px 5px;
   position: relative;
-  -webkit-transition: all 0.3s 0s ease-in;
-  transition: all 0.3s 0s ease-in;
+  -webkit-transition: all 0.1s 0s ease-in;
+  transition: all 0.1s 0s ease-in;
   z-index: 1;
   width: calc(100% - 10px);
   cursor: pointer;
@@ -937,14 +938,14 @@ section {
           transform: rotateX(-90deg);
 }
 .dashboard-cards .card .flap1 {
-  -webkit-transition: all 0.3s 0.3s ease-out;
-  transition: all 0.3s 0.3s ease-out;
+  -webkit-transition: all 0.1s 0.1s ease-out;
+  transition: all 0.1s 0.1s ease-out;
   z-index: -1;
   border: inherit;
 }
 .dashboard-cards .card .flap2 {
-  -webkit-transition: all 0.3s 0s ease-out;
-  transition: all 0.3s 0s ease-out;
+  -webkit-transition: all 0.1s 0s ease-out;
+  transition: all 0.1s 0s ease-out;
   z-index: -2;
   border: inherit;
   display: none;
@@ -971,12 +972,12 @@ section {
           transform: rotateX(0deg);
 }
 .dashboard-cards .card.d-card-show .flap1 {
-  -webkit-transition: all 0.3s 0s ease-out;
-  transition: all 0.3s 0s ease-out;
+  -webkit-transition: all 0.1s 0s ease-out;
+  transition: all 0.1s 0s ease-out;
 }
 .dashboard-cards .card.d-card-show .flap2 {
-  -webkit-transition: all 0.3s 0.2s ease-out;
-  transition: all 0.3s 0.2s ease-out;
+  -webkit-transition: all 0.1s 0.1s ease-out;
+  transition: all 0.1s 0.1s ease-out;
 }
 .dashboard-cards .card .task-count {
   width: 40px;
