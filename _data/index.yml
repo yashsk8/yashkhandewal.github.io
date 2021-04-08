@@ -1,1 +1,7 @@
-myname: 'Yash Khandelwal'
+myname: Yash Khandelwal
+profile-pic: ./assets/img/profile-pic-ysk.png
+social-media-links: 
+  facebook: https://www.facebook.com/yashsk8/
+  instagram: https://www.instagram.com/yashsk8/
+  linkedin: https://www.linkedin.com/in/yashskhandelwal/
+  github: https://github.com/yashsk8
