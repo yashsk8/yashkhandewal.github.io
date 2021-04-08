@@ -1,0 +1,41 @@
+{% assign resumeSection = site.data.index.resume.[include.resumeSectionName] %}
+<h3 class="resume-title">{{ resumeSection.name }}</h3>
+<div class="dashboard-cards" data-aos="fade-up">
+    {% for card in resumeSection.cards %}
+    <div class="card">
+        <div class="card-title">
+            <div class="row">
+                <div class="col-12 col-md-7 pb-1">
+                    <h2>{{ card.heading }}</h2>
+                    {% if card.subHeading | size > 0 %}
+                    <small>{{ card.subHeading }}</small>
+                    {% endif %}
+                </div>
+                <div class="col-12 col-md-5 text-end">
+                    <h5>{{ card.duration }}</h5>
+                </div>
+            </div>
+        </div>
+        <div class="card-flap flap1">
+            <div class="card-description">
+                {% assign desc = card.description %}
+
+                {% if desc.location | size > 0 %}
+                <b>Location</b>: {{ desc.location }}
+                <br><br>
+                {% endif %}
+
+                {% assign lastPoint = desc.points | last %}
+                {% for point in desc.points %}
+                {{ point }}
+
+                {% unless lastPoint == point %}
+                <br><br>
+                {% endunless %}
+
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>

@@ -57,3 +57,302 @@ skills:
         value: 50
       - name: Neural Networks
         value: 30
+
+
+resume:
+  education:
+    name: Education
+    cards:
+      - heading: IDD (B.Tech. + M.Tech.) in Electrical Engineering
+        subHeading: Indian Institute of Technology (BHU)
+        duration: July 2014 - June 2019
+        description:
+          location: Varanasi, Uttar Pradesh, India
+          points:
+            - "Degree: B. Tech + M. Tech (Integrated Dual Degree) in Electrical Engineering (Masters in Power Electronics)"
+            - "CGPA: <b>9.09/10</b>"
+      - heading: Senior Secondary School
+        subHeading: Shiv Jyoti Sr. Sec. School
+        duration: 2012-2014
+        description:
+          location: Kota, Rajasthan, India
+          points:
+            - "Stream: Science/Maths"
+            - "Board: CBSE"
+            - "Percentage: <b>88%</b>"
+      - heading: Secondary School
+        subHeading: Kishor Suryavanshi International School
+        duration: 2010 - 2012
+        description:
+          location: Nashik, Maharashtra, India
+          points:
+            - "Board: CBSE"
+            - "Grade points: <b>10.0</b>"
+            - "Percentage: <b>95%</b>"
+
+  experienceProjects:
+    name: Experience & Projects
+    cards:
+      - heading: "Individual Contributor (Level 2)"
+        subHeading: Apple India Pvt. Ltd.
+        duration: July 2019 - Present
+        description:
+          location: Hyderabad, Telengana, India
+          points:
+            - "I joined as a campus hire at Apple-India. My time at apple has
+                allowed me to work with a variety of software technologies such
+                as Spring Boot, Hibernate, Docker, CI-CD and more. I worked at a
+                myriad of projects and picked up tasks individually and led them
+                to fruition. My work here was highly extolled by my manager and
+                colleagues."
+      - heading: M.Tech. Project & Thesis
+        subHeading: Indian Institute of Technology, (BHU)
+        duration: 2018-2019
+        description:
+          location: Varanasi, Uttar Pradesh, India
+          points:
+            - "Title: Control of a 21-level Hybrid Multilevel Inverter using
+                Modified Finite Set Model Predictive Control with reduced
+                switching stresses."
+            - "Professor:
+                <a href=\"https://www.iitbhu.ac.in/dept/eee/people/rmahantyeee\">
+                  Prof. R. Mahanty (Former H.O.D., Department of Electrical
+                  Engineering, IIT(BHU), Varanasi)</a>"
+            - "Paper:
+                <a href=\"https://digital-library.theiet.org/content/journals/10.1049/iet-pel.2019.1314\">
+                  Reduced voltage stress hybrid multilevel inverter using
+                  optimised predictive control</a>"
+      - heading: B.Tech. Project
+        subHeading: Indian Institute of Technology, (BHU)
+        duration: Jan 2017 - Dec 2017
+        description:
+          location: Varanasi, Uttar Pradesh, India
+          points:
+            - "Details: Designed an android application to mimic a transmitter
+                and use it to control an Arduino based quad-copter by
+                establishing a Bluetooth wireless connection."
+            - "Professor:
+                <a href=\"https://www.iitbhu.ac.in/dept/eee/people/rksaketeee\">Prof. R. K. Saket (Department of
+                  Electrical Engineering,
+                  IIT(BHU), Varanasi)</a>"
+      - heading: International Research Internship
+        subHeading: Kyushu University
+        duration: Jul 2017 - Aug 2017
+        description:
+          location: Fukuoka Prefecture, Japan
+          points:
+            - "Title: Simulation and Application of Particle Filter based SLAM"
+            - "Professor:
+                <a href=\"https://kyushu-u.pure.elsevier.com/en/persons/shinji-hokamoto\">Prof. Shinji Hokamoto
+                  (Department of Aeronautics and
+                  Astronautics, Kyushu University, Fukuoka, Japan)</a>"
+            - "Details: Studied and applied the particle filter based approach
+                to SLAM on a 2D mobile rover system using April Tags as real
+                world references."
+      - heading: DIH Project
+        subHeading: Indian Institute of Technology, (BHU)
+        duration: Jan 2016 - May 2016
+        description:
+          location: Varanasi, Uttar Pradesh, India
+          points:
+            - "Title: Visual SLAM (Simultaneous Localisation and Mapping) on
+                UAVs."
+            - "Professors: <ul><li>
+                    <a href=\"https://www.iitbhu.ac.in/dept/cse/people/hariprabhatcse\">Prof. Hari Prabhat Gupta (Dept. of
+                      Computer Science,
+                      IIT(BHU))</a>
+                  </li><li>
+                    <a href=\"https://iitbhu.ac.in/dept/cse/people/tanimacse\">Dr. Tanima Dutta (Dept. of Computer
+                      Science, IIT(BHU))</a>
+                  </li></ul>"
+            - "Details: Implemented Visual Odometry as a solution for the SLAM
+                Problem in a UAV using a monocular camera and Extended Kalman
+                filter (EKF) algorithm."
+  
+  researchPaper:
+    name: Research Paper
+    cards:
+      - heading: Reduced voltage stress hybrid multilevel inverter using optimised predictive control
+        subHeading: Indian Institute of Technology (BHU)
+        duration: June 2020
+        description:
+          location: Varanasi, Uttar Pradesh, India
+          points:
+            - "Paper: <a href=\"https://digital-library.theiet.org/content/journals/10.1049/iet-pel.2019.1314\">Khandelwal, Y., Routray, A., Singh, R. K., & Mahanty, R. (2020). Reduced voltage stress hybrid multilevel inverter using optimised predictive control. IET Power Electronics, 13(14), 2983–2991.</a>"
+
+  achievements:
+    name: Achievements
+    cards:
+      - heading: "Common Admissions Test (CAT): 99.93 %ile"
+        duration: Jan 2019
+        description:
+          location: Varanasi, Uttar Pradesh, India
+          points:
+            - "Common admissions test is one of the most competitive exams in
+                India. This test measures aptitude in English, Quant, Data
+                Interpretation, and Logical Reasoning. The exam witnesses more
+                than 300,000 test takers nationwide."
+      - heading: Y.E.S. HONDA Scholarship Award
+        duration: Feb 2017
+        description:
+          points:
+            - "This prestigious scholarship award by the Honda Foundation is
+                bestowed upon eligible candidates who have passed a rigorous
+                selection process. It awards a scholarship of $3000 and an
+                additional $7000 for doing internship from Japan."
+            - "<a href=\"https://www.hondafoundation.jp/yes/index_en/210\"
+                  >Y.E.S. Honda 2016 Awardees</a
+                >"
+      - heading: HONOURABLE MENTION
+        subHeading: Indian Institute of Technology, (BHU)
+        duration: Apr 2017
+        description:
+          location: Varanasi, Uttar Pradesh, India
+          points:
+            - "Recipient of the award “HONOURABLE MENTION” (2017) for
+                  achievements and contributions in the field of Aero-modelling,
+                  Gymkhana, IIT(BHU)."
+            - "One of the most prestigious titles awarded to the students by
+                  the college gymkhana, it marks exemplary work and
+                  contributions by a student in gymkhana activities."
+      - heading: First Runner Up, Multi-Rotor event, Techkriti
+        subHeading: Indian Institute of Technology, Kanpur
+        duration: Mar 2017
+        description:
+          location: Varanasi, Uttar Pradesh, India
+          points:
+            - "Techkriti is the annual techno-management fest of IIT Kanpur.
+                The multi-rotor event has the teams participating to show
+                excellent drone making and flying skills. There were more than
+                25 teams participating in the event."
+      - heading: Second Runner Up, Momentum (Water Rocket Event), Technex
+        subHeading: Indian Institute of Technology, (BHU)
+        duration: Aug 2015
+        description:
+          location: Varanasi, Uttar Pradesh, India
+          points:
+            - "Momentum is a water rocket event and is part of Technex, which is the annual techno-management fest of IIT(BHU). This event witnesses a footfall of around 300 participants every year."
+      - heading: First Runner Up, Biz-craft, Prastuti
+        subHeading: Indian Institute of Technology, (BHU)
+        duration: Aug 2016
+        description:
+          location: Varanasi, Uttar Pradesh, India
+          points:
+            - "Biz-craft is a business problem solving event and is part of
+                Prastuti, the annual departmental fest of the Department of
+                Electrical engineering at IIT(BHU)."
+      - heading: "JEE-Advanced Rank Holder: 2714"
+        duration: June 2014
+        description:
+          location: Kota, Rajasthan, India
+          points:
+            - "Popular as one of the toughest undergraduate admissions exam in
+                the world, this exam witnesses a participation of more than 1.4
+                million students each year. My rank puts me at 99.8 percentile."
+      - heading: "Maharastra Govt. Scholarship in 7th standard"
+        duration: "2009"
+        description:
+          location: Nashik, Maharashtra, India
+          points:
+            - "This scholarship is provided by the Maharastra Govt. for
+                students who clear the cut-off in an exam conducted by them.
+                This paper tests the aptitude of the student in English and
+                Maths, as well as essay writing skills."
+
+  extraCurricular:
+    name: Extra-Curricular Activities
+    cards:
+      - heading: Joint Secretary of Aero-Modelling Club
+        subHeading: Gymkhana, Indian Institute of Technology, (BHU)
+        duration: Jul 2016 - May 2017
+        description:
+          location: Varanasi, Uttar Pradesh, India
+          points:
+            - "Under my tenure at the joint secretary of this club, I took the
+                initiative to bring new projects within the purview of the club,
+                and introduced technologies such as racing and autonomous
+                drones. I motivated the freshers of our college to actively
+                participate in the club’s activities by conducting workshops,
+                seminar, and industrial visits. Under my tenure, the club grew
+                in leaps and bounds, and IIT(BHU) witnessed golden days of the
+                club. The visibility of the club grew highly as we participated
+                and displayed our projects at college events, thereby making
+                this club one of the most popular and active clubs at the
+                college. One of the prominent events conducted by our club in
+                Technex went on to receive the best technical event award by the
+                gymkhana for that year."
+      - heading: Head, Ascension
+        subHeading: Technex, Indian Institute of Technology, (BHU)
+        duration: Jul 2016 - May 2017
+        description:
+          location: Varanasi, Uttar Pradesh, India
+          points:
+            - "In 2017, our club introduced a dedicated events category called
+                as “Ascension” in Technex, the annual techno-management event of
+                IIT(BHU). I was the head of that event-category, which boasted
+                four prominent and exciting technical competitions related to
+                aero-modelling. We witnessed a high internal as well as external
+                participation in these events, totalling to a footfall of about
+                600. This activity set aero-modelling club apart from other
+                technical activities and it made a name and a permanent place
+                for itself in Technex for years to come."
+      - heading: Coordinator, Dronetech (Multi-rotor event), Ascension
+        subHeading: Technex, Indian Institute of Technology, (BHU)
+        duration: Jul 2016 - May 2017
+        description:
+          location: Varanasi, Uttar Pradesh, India
+          points:
+            - "I was the chief coordinator for Drone-tech, one of the events of
+                Ascension at Technex. This event had the highest prize money of
+                all the events at Technex. This event primarily tests the
+                participants skills in drone making and flying. I, along with my
+                team designed the problem statement for the event. We
+                constructed the arena and organised the event which went on to
+                become a grand success. Even now, the tradition of this event is
+                continued and it remains the event with the highest stakes each
+                year."
+      - heading: Coordinator, Prof. Veerbhadra Mishra Memorial Airshow
+        subHeading: Technex, Indian Institute of Technology, (BHU)
+        duration: Jul 2016 - May 2017
+        description:
+          location: Varanasi, Uttar Pradesh, India
+          points:
+            - "Aero-modelling club hosts a very unique event each year during
+                Technex, which displays its technological powress in its full
+                glory. Here, we display many of our flying models and perform
+                exciting feats with them, which are a visual treat for the
+                audience. We see a footfall of more than 2000, including
+                students from various schools, and also professors as well as
+                prominent members of the society. Here, I took up a lead role
+                and led my teams efforts to make this show a grand success.
+                During this year, we displayed new models such as 3D helicopter,
+                racing drone formation, and drone fighting."
+      - heading: Co-coordinator, Drone-Tech (Multi-rotor event), X-treme
+                    Engineering
+        subHeading: Technex, Indian Institute of Technology, (BHU)
+        duration: Jul 2015 - May 2016
+        description:
+          location: Fukuoka Prefecture, Japan
+          points:
+            - "I was the co-coordinator for Drone-tech, one of the events of
+                Ascension at Technex. This event had the highest prize money of
+                all the events at Technex. This event primarily tests the
+                participants skills in drone making and flying. I, along with my
+                team designed the problem statement for the event. We
+                constructed the arena and organised the event which went on to
+                become a grand success. Even now, the tradition of this event is
+                continued and it remains the event with the highest stakes each
+                year."
+      - heading: Coordinator, Publicity Team, Prastuti
+        subHeading: Electrical Engineering Dept., Indian Institute of
+                    Technology, (BHU)
+        duration: Jul 2015 - May 2016
+        description:
+          location: Varanasi, Uttar Pradesh, India
+          points:
+            -  "Prastuti is the annual departmental fest of the Department of Electrical engineering at IIT(BHU)."
+            
+                                   
+
+      
+            
