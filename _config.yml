@@ -1,4 +1,8 @@
-# Where things are
+# Site settings
+title: Yash Khandelwal
+description: description
+baseurl: "/" # the subpath of your site, e.g. /blog/
+url: "http://yashsk8.github.io" # the base hostname & protocol for your site
 source              : .
 destination         : ./_site
 collections_dir     : .
