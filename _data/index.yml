@@ -1,7 +1,59 @@
 myname: Yash Khandelwal
 profile-pic: ./assets/img/profile-pic-ysk.png
-social-media-links: 
+social-media-links:
   facebook: https://www.facebook.com/yashsk8/
   instagram: https://www.instagram.com/yashsk8/
   linkedin: https://www.linkedin.com/in/yashskhandelwal/
   github: https://github.com/yashsk8
+
+skills:
+  - name: Programming Languages
+    skillSet:
+      - name: Java
+        value: 95
+      - name: Python
+        value: 80
+      - name: C
+        value: 80
+      - name: C++
+        value: 100
+      - name: HTML
+        value: 90
+      - name: CSS
+        value: 75
+      - name: JavaScript
+        value: 60
+      - name: SQL
+        value: 90
+
+  - name: Tools, Frameworks and Technologies
+    skillSet:
+      - name: SpringBoot
+        value: 100
+      - name: Hibernate
+        value: 80
+      - name: Node.js
+        value: 45
+      - name: Express.js
+        value: 30
+      - name: Containerization (Docker)
+        value: 80
+      - name: Splunk
+        value: 95
+  
+  - name: Conceptuals/Courses
+    skillSet:
+      - name: SpObject Oriented ProgrammingringBoot
+        value: 100
+      - name: Data-Structures
+        value: 100
+      - name: Operating System
+        value: 70
+      - name: Machine Learning
+        value: 50
+      - name: Information Retrieval
+        value: 50
+      - name: Recommender Systems
+        value: 50
+      - name: Neural Networks
+        value: 30
