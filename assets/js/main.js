@@ -266,7 +266,7 @@
 
 
   /**
-   * 
+   * Open link in new tab implementation
    */
    document.querySelectorAll('a').forEach(ele => ele.setAttribute("target", "_blank"));
 
