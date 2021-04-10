@@ -1,26 +1,30 @@
-
-
 <!-- ======= Resume Section ======= -->
-<section id="resume" class="resume overflow-auto">
+<section id="resume" class="resume">
   <div class="container">
     <div class="section-title">
       <h2>Resume</h2>
     </div>
-    
-    <div class="row resumeInnerContainer" >
+
+    <div class="row resumeInnerContainer">
+
+      <div class="col-lg-6 resumeInnerContainerColumn">
+        <div class="dashboard-cards" data-aos="fade-up">
+          {% include resumeSection.html resumeSectionName='education' %}
+          {% include resumeSection.html resumeSectionName='researchPaper' %}
+          {% include resumeSection.html resumeSectionName='achievements' %}
+        </div>
+      </div>
+
+      <div class="col-lg-6 resumeInnerContainerColumn">
+        <div class="dashboard-cards" data-aos="fade-up">
+          {% include resumeSection.html resumeSectionName='experienceProjects' %}
+          {% include resumeSection.html resumeSectionName='extraCurricular' %}
+        </div>
+      </div>
+
       
-      <div class="col-lg-6 resumeInnerContainerColumn">
-        {% include resumeSection.html resumeSectionName='education' %}
-        {% include resumeSection.html resumeSectionName='researchPaper' %}
-        {% include resumeSection.html resumeSectionName='achievements' %}
-      </div>
-
-      <div class="col-lg-6 resumeInnerContainerColumn">
-        {% include resumeSection.html resumeSectionName='experienceProjects' %}
-        {% include resumeSection.html resumeSectionName='extraCurricular' %}
-      </div>
-
     </div>
-  </div>
 </section>
 <!-- End Resume Section -->
+
+

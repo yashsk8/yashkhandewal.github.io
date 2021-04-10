@@ -1,6 +1,6 @@
 {% assign resumeSection = site.data.index.resume.[include.resumeSectionName] %}
 <h3 class="resume-title">{{ resumeSection.name }}</h3>
-<div class="dashboard-cards" data-aos="fade-up">
+
     {% for card in resumeSection.cards %}
     <div class="card">
         <div class="card-title">
@@ -38,4 +38,3 @@
         </div>
     </div>
     {% endfor %}
-</div>
