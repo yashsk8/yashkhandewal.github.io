@@ -265,5 +265,11 @@
   });
 
 
+  /**
+   * 
+   */
+   document.querySelectorAll('a').forEach(ele => ele.setAttribute("target", "_blank"));
+
+
  
 })()
