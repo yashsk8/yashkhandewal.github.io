@@ -43,7 +43,7 @@ skills:
   
   - name: Conceptuals/Courses
     skillSet:
-      - name: SpObject Oriented ProgrammingringBoot
+      - name: Object Oriented Programming
         value: 100
       - name: Data-Structures
         value: 100
