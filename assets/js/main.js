@@ -268,7 +268,8 @@
   /**
    * Open link in new tab implementation
    */
-  document.querySelectorAll('.navbar a, .card a').forEach(ele => ele.setAttribute("target", "_blank"));
+  document.querySelectorAll('.card a').forEach(ele => ele.setAttribute("target", "_blank"));
+  document.querySelectorAll('.social-links a').forEach(ele => ele.setAttribute("target", "_blank"));
 
 
  
