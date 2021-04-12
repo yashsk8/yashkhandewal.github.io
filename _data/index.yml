@@ -38,8 +38,6 @@ skills:
         value: 30
       - name: Containerization (Docker)
         value: 80
-      - name: Splunk
-        value: 95
   
   - name: Conceptuals/Courses
     skillSet:
