@@ -7,7 +7,7 @@ social-media-links:
   github: https://github.com/yashsk8
 
 skills:
-  - name: Programming Languages
+  - name: Programming and Markdown Languages
     skillSet:
       - name: Java
         value: 95
@@ -44,9 +44,11 @@ skills:
   - name: Conceptuals/Courses
     skillSet:
       - name: Object Oriented Programming
-        value: 100
+        value: 90
       - name: Data-Structures
         value: 100
+      - name: algoritms
+        value: 80
       - name: Operating System
         value: 70
       - name: Machine Learning
