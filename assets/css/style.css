@@ -521,7 +521,12 @@ ul.cloud li {
   text-decoration: none;
   position: relative;
   --size: attr(data-weight number, 1); 
-  font-size: calc(var(--size) * 0.5rem);
+  font-size: calc(var(--size) * 0.4rem);
+  background: rgb(174, 227, 245);
+  border-radius: 1rem;
+  margin-inline: 5px;
+  margin-top: 10px;
+  box-shadow: 0 0 5px rgb(126, 119, 119);
 }
 
 ul.cloud li:nth-child(2n+1)  { color: rgb(12, 19, 220); }
@@ -911,7 +916,7 @@ ul.cloud li {
   
 }
 
-.dashboard-cards .card .card-title h5 {
+.dashboard-cards .card .card-title h5{
   font-size: 0.8rem;
   background: rgb(174, 227, 245);
   margin: 0;
@@ -920,6 +925,8 @@ ul.cloud li {
   border-radius: 0.3rem;
   display: inline;
 }
+
+
 
 .dashboard-cards .card .card-title small {
   display: block;
