@@ -939,7 +939,7 @@ ul.cloud li {
   position: relative;
   font-size: 12px;
   border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  
   padding: 10px 10px 10px 15px;
 }
 
@@ -951,6 +951,7 @@ ul.cloud li {
           transform-origin: top;
   -webkit-transform: rotateX(-90deg);
           transform: rotateX(-90deg);
+  border-radius: 0px 0px 0.5rem 0.5rem;
 }
 .dashboard-cards .card .flap1 {
   -webkit-transition: all 0.1s 0.1s ease-out;
