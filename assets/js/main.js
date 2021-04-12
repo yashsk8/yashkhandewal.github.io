@@ -270,6 +270,7 @@
    */
   document.querySelectorAll('.card a').forEach(ele => ele.setAttribute("target", "_blank"));
   document.querySelectorAll('.social-links a').forEach(ele => ele.setAttribute("target", "_blank"));
+  document.querySelectorAll('.additional-links a').forEach(ele => ele.setAttribute("target", "_blank"));
 
 
  
