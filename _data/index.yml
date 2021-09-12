@@ -63,6 +63,14 @@ resume:
   education:
     name: Education
     cards:
+      - heading: Master in Science -  Computer Science
+        subHeading: University Of California, San Diego, USA
+        duration: Sep 2021 - Mar 2023
+        description:
+          location: San Diego, California, United States
+          points:
+            - "Degree: MS"
+            - "CGPA: Ongoing"
       - heading: IDD (B.Tech. + M.Tech.) in Electrical Engineering
         subHeading: Indian Institute of Technology (BHU)
         duration: July 2014 - June 2019
