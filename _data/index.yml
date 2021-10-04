@@ -97,7 +97,35 @@ resume:
             - "Board: CBSE"
             - "Grade points: <b>10.0</b>"
             - "Percentage: <b>95%</b>"
-
+  
+  additionalCourses:
+    name: Additional Coursework
+    cards:
+      - heading: Machine Learning
+        subHeading: Coursera (Stanford University)
+        duration: Oct 2021
+        description:
+          points:
+            - "<a href=\"http://coursera.org/verify/P2ZVPULCVHWQ\">See Credential</a>"
+      - heading: Robotics - Perception
+        subHeading: Coursera (University of Pennslyvania)
+        duration: Jul 2017
+        description:
+          points:
+            - "<a href=\"https://www.coursera.org/account/accomplishments/verify/URLNGCVJ9BFL\">See Credential</a>"            
+      - heading: Robotics - Aerial Robotics
+        subHeading: Coursera (University of Pennslyvania)
+        duration: Jul 2017
+        description:
+          points:
+            - "<a href=\"https://www.coursera.org/account/accomplishments/verify/75EZWAMYNLV4\">See Credential</a>"
+      - heading: Robotics - Computational Motion Planning
+        subHeading: Coursera (University of Pennslyvania)
+        duration: Jul 2017
+        description:
+          points:
+            - "<a href=\"https://www.coursera.org/account/accomplishments/verify/95XHE3MFS9J8\">See Credential</a>"            
+            
   experienceProjects:
     name: Experience & Projects
     cards:
