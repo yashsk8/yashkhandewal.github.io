@@ -12,9 +12,51 @@
                 {% for skill in subSection.skillSet %}
                     <div class="col-lg-6"> 
                         <div class="progress"  data-aos="fade-right"> 
-                            <span class="skill"> {{ skill.name }} <i class="val">{{ skill.value }}%</i></span> 
-                            <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="{{ skill.value }}" aria-valuemin="0" aria-valuemax="100"></div> 
+                            <span class="skill"> {{ skill.name }} <i class="val">
+                                {% if skill.value <= 33 %}
+                                    Coursework Experience
+                                {% elsif skill.value <= 66 %}
+                                    Project Experience
+                                {% else %}
+                                    Professional Experience
+                                {% endif %}
+                            </i></span> 
+                            <div class="container" style = "padding: 0px;">
+                                <div class="row">
+                                    <div class="col" style="padding-left: 12px; padding-right: 0px;"> 
+                                        <div class="progress-bar-wrap-start">
+                                            <div class="progress-bar" role="progressbar"
+                                            {% if skill.value > 0 %} 
+                                                aria-valuenow="100"
+                                            {% else %}
+                                                aria-valuenow="0"
+                                            {% endif %}
+                                            aria-valuemin="0" aria-valuemax="100"></div>  
+                                        </div>
+                                    </div>
+                                    <div class="col" style="padding-left: 1px; padding-right: 1px;"> 
+                                        <div class="progress-bar-wrap-mid">
+                                            <div class="progress-bar" role="progressbar" 
+                                            {% if skill.value > 33 %} 
+                                                aria-valuenow="100"
+                                            {% else %}
+                                                aria-valuenow="0"
+                                            {% endif %}
+                                            aria-valuemin="0" aria-valuemax="100"></div> 
+                                        </div>
+                                    </div>
+                                    <div class="col" style="padding-left: 0px; padding-right: 12px;"> 
+                                        <div class="progress-bar-wrap-end">
+                                            <div class="progress-bar" role="progressbar" 
+                                            {% if skill.value > 66 %} 
+                                                aria-valuenow="100"
+                                            {% else %}
+                                                aria-valuenow="0"
+                                            {% endif %}
+                                            aria-valuemin="0" aria-valuemax="100"></div> 
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -479,6 +479,34 @@ section {
   background: #dce8f8;
   height: 10px;
   border-radius: 3vh;
+  padding: 0rem;
+  margin: 0rem;
+}
+
+.skills .progress-bar-wrap-start {
+  background: #dce8f8;
+  height: 10px;
+  border-top-left-radius: 3vh;
+  border-bottom-left-radius: 3vh;
+  padding: 0rem;
+  margin: 0rem;
+}
+
+.skills .progress-bar-wrap-mid{
+  background: #dce8f8;
+  height: 10px;
+  padding: 0rem;
+  margin: 0rem;
+}
+
+.skills .progress-bar-wrap-end{
+  background: #dce8f8;
+  height: 10px;
+  border-right: 3vh;
+  padding: 0rem;
+  margin: 0rem;
+  border-top-right-radius: 3vh;
+  border-bottom-right-radius: 3vh;
 }
 
 .skills .progress-bar {
@@ -486,7 +514,10 @@ section {
   height: 10px;
   transition: .9s;
   background-color: #149ddd;
-  border-radius: 3vh;
+  border-top-left-radius: inherit;
+  border-bottom-left-radius: inherit;
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: inherit;
 }
 
 
