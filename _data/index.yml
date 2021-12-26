@@ -86,7 +86,7 @@ resume:
             - "<i>Course(s):</i> Recommender Systems & Web Mining, Probabilistic Reasoning & Learning, Algorithm Design & Analysis"
       - heading: IDD (B.Tech. + M.Tech.) in Electrical Engineering
         subHeading: Indian Institute of Technology (BHU)
-        duration: July 2014 - June 2019
+        duration: Jul 2014 - Jun 2019
         description:
           location: Varanasi, Uttar Pradesh, India
           points:
@@ -139,7 +139,7 @@ resume:
     cards:
       - heading: "Individual Contributor (Level 2)"
         subHeading: Apple India Pvt. Ltd.
-        duration: July 2019 - Present
+        duration: Jul 2019 - Present
         description:
           location: Hyderabad, Telengana, India
           points:
@@ -151,7 +151,7 @@ resume:
                 colleagues."
       - heading: "List of Machine Learning (ML) Projects"
         subHeading: UC San Diego
-        duration: September 2019 - Present
+        duration: Sep 2019 - Present
         description:
           location: San Diego, CA, USA
           points:
@@ -159,7 +159,7 @@ resume:
             - "IsAlive prediction on Titanic dataset"
       - heading: "List of Natural Language Processing (NLP) Projects"
         subHeading: UC San Diego
-        duration: September 2019 - Present
+        duration: Sep 2019 - Present
         description:
           location: San Diego, CA, USA
           points:
@@ -236,7 +236,7 @@ resume:
     cards:
       - heading: Reduced voltage stress hybrid multilevel inverter using optimised predictive control
         subHeading: Indian Institute of Technology (BHU)
-        duration: June 2020
+        duration: Jun 2020
         description:
           location: Varanasi, Uttar Pradesh, India
           points:
@@ -304,7 +304,7 @@ resume:
                 Prastuti, the annual departmental fest of the Department of
                 Electrical engineering at IIT(BHU)."
       - heading: "JEE-Advanced Rank Holder: 2714"
-        duration: June 2014
+        duration: Jun 2014
         description:
           location: Kota, Rajasthan, India
           points:
