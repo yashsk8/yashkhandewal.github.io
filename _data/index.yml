@@ -83,7 +83,10 @@ resume:
           location: San Diego, California, United States
           points:
             - "Degree: MS"
-            - "<i>Course(s):</i> Recommender Systems & Web Mining, Probabilistic Reasoning & Learning, Algorithm Design & Analysis"
+            - "<i>Course(s):</i>"
+              - "Recommender Systems & Web Mining (A+)"
+              - "Probabilistic Reasoning & Learning (A)"
+              - "Algorithm Design & Analysis (A+)"
       - heading: IDD (B.Tech. + M.Tech.) in Electrical Engineering
         subHeading: Indian Institute of Technology (BHU)
         duration: Jul 2014 - Jun 2019
