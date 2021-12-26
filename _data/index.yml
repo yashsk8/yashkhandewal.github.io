@@ -4,14 +4,14 @@ social-media-links:
   facebook: https://www.facebook.com/yashsk8/
   instagram: https://www.instagram.com/yashsk8/
   linkedin: https://www.linkedin.com/in/yashskhandelwal/
-  github: https://github.com/yashsk8
+  github: https://github.com/yashskhandelwal
 
 skills:
   - name: Programming and Markup Languages
     skillSet:
-      - name: Java
-        value: 100
       - name: Python
+        value: 100
+      - name: Java
         value: 100
       - name: C
         value: 66
@@ -28,6 +28,18 @@ skills:
 
   - name: Tools, Frameworks and Technologies
     skillSet:
+      - name: Tensorflow
+        value: 66
+      - name: Scikit-Learn
+        value: 66
+      - name: Pandas
+        value: 66
+      - name: Numpy
+        value: 66
+      - name: Matplotlib and Seaborn
+        value: 66
+      - name: Pytorch
+        value: 33
       - name: SpringBoot
         value: 100
       - name: Hibernate
@@ -41,20 +53,22 @@ skills:
   
   - name: Conceptuals/Courses
     skillSet:
-      - name: Object Oriented Programming
-        value: 100
+      - name: Machine Learning
+        value: 66
+      - name: Recommender Systems
+        value: 66
+      - name: Deep Learning
+        value: 66
+      - name: Information Retrieval
+        value: 66
       - name: Data-Structures
         value: 100
       - name: Algoritms
         value: 100
-      - name: Machine Learning
-        value: 66
-      - name: Information Retrieval
-        value: 33
-      - name: Recommender Systems
-        value: 33
-      - name: Neural Networks
-        value: 33
+      - name: System Design
+        value: 100
+      - name: Object Oriented Programming
+        value: 100
       - name: Operating Systems
         value: 33
 
@@ -101,30 +115,24 @@ resume:
   additionalCourses:
     name: Additional Coursework
     cards:
+      - heading: Natural Language Processing with Machine Learning
+        subHeading: Educative.io
+        duration: Dec 2021
+        description:
+          points:
+            - "<a href=\"https://www.educative.io/verify-certificate/pRJwyljOvpvuv7xDK88YLQTkJnAXZ6VwEf2\">See Credential</a>"
+      - heading: Machine Learning For Software Engineers
+        subHeading: Educative.io
+        duration: Dec 2021
+        description:
+          points:
+            - "<a href=\"https://www.educative.io/verify-certificate/4k1mMPypojou6YKwJ5mNyLtNVn94DK56PcG\">See Credential</a>"
       - heading: Machine Learning
         subHeading: Coursera (Stanford University)
         duration: Oct 2021
         description:
           points:
-            - "<a href=\"http://coursera.org/verify/P2ZVPULCVHWQ\">See Credential</a>"
-      - heading: Robotics - Perception
-        subHeading: Coursera (University of Pennslyvania)
-        duration: Jul 2017
-        description:
-          points:
-            - "<a href=\"https://www.coursera.org/account/accomplishments/verify/URLNGCVJ9BFL\">See Credential</a>"            
-      - heading: Robotics - Aerial Robotics
-        subHeading: Coursera (University of Pennslyvania)
-        duration: Jul 2017
-        description:
-          points:
-            - "<a href=\"https://www.coursera.org/account/accomplishments/verify/75EZWAMYNLV4\">See Credential</a>"
-      - heading: Robotics - Computational Motion Planning
-        subHeading: Coursera (University of Pennslyvania)
-        duration: Jul 2017
-        description:
-          points:
-            - "<a href=\"https://www.coursera.org/account/accomplishments/verify/95XHE3MFS9J8\">See Credential</a>"            
+            - "<a href=\"http://coursera.org/verify/P2ZVPULCVHWQ\">See Credential</a>"   
             
   experienceProjects:
     name: Experience & Projects
@@ -141,6 +149,24 @@ resume:
                 myriad of projects and picked up tasks individually and led them
                 to fruition. My work here was highly extolled by my manager and
                 colleagues."
+      - heading: "List of Machine Learning (ML) Projects"
+        subHeading: UC San Diego
+        duration: September 2019 - Present
+        description:
+          location: San Diego, CA, USA
+          points:
+            - "Predict Customer Churn Rate using Linear Regression"
+            - "IsAlive prediction on Titanic dataset"
+      - heading: "List of Natural Language Processing (NLP) Projects"
+        subHeading: UC San Diego
+        duration: September 2019 - Present
+        description:
+          location: San Diego, CA, USA
+          points:
+            - "Sentiment analysis on user review dataset"
+            - "Keyword extraction on academic papers dataset"
+            - "Resume screening on resume dataset"
+            - "Spelling autocorrect"           
       - heading: M.Tech. Project & Thesis
         subHeading: Indian Institute of Technology, (BHU)
         duration: 2018-2019
