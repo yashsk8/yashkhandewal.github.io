@@ -155,6 +155,7 @@ resume:
       - heading: "List of Machine Learning (ML) Projects"
         subHeading: UC San Diego
         duration: Sep 2019 - Present
+        
         description:
           location: San Diego, CA, USA
           points:
