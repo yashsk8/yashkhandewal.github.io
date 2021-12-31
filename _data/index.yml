@@ -83,7 +83,6 @@ resume:
           location: San Diego, California, United States
           points:
             - "Degree: MS"
-            - "<i>Course(s):</i>"
             - "CGPA: <b>4.0/4.0</b>"
       - heading: IDD (B.Tech. + M.Tech.) in Electrical Engineering
         subHeading: Indian Institute of Technology (BHU)
