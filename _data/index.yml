@@ -138,7 +138,7 @@ resume:
   experienceProjects:
     name: Experience & Projects
     cards:
-      - heading: "Individual Contributor (Level 2)"
+      - heading: "Software Engineer (Level 2)"
         subHeading: Apple India Pvt. Ltd.
         duration: Jul 2019 - Present
         description:
