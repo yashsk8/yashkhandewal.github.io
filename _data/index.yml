@@ -84,10 +84,7 @@ resume:
           points:
             - "Degree: MS"
             - "CGPA: <b>4.0/4.0</b>"
-            - "<i>Course(s):</i>":
-              - "Recommender Systems & Web Mining (A+)"
-              - "Probabilistic Reasoning & Learning (A)"
-              - "Algorithm Design & Analysis (A+)"
+            - "<i>Course(s):</i>: Recommender Systems & Web Mining (A+), Probabilistic Reasoning & Learning (A), Algorithm Design & Analysis (A+)"
       - heading: IDD (B.Tech. + M.Tech.) in Electrical Engineering
         subHeading: Indian Institute of Technology (BHU)
         duration: Jul 2014 - Jun 2019
@@ -96,11 +93,7 @@ resume:
           points:
             - "Degree: B. Tech + M. Tech (Integrated Dual Degree) in Electrical Engineering (Masters in Power Electronics)"
             - "CGPA: <b>9.09/10</b>"
-            - "<i>Course(s):</i>": 
-              - "Information Retrieval & Recommender Systems"
-              - "Computer Programming"
-              - "Probability & Statistics"
-              - "Linear Algebra"
+            - "<i>Course(s):</i>: Information Retrieval & Recommender Systems, Computer Programming, Probability & Statistics, Linear Algebra"
       - heading: Senior Secondary School
         subHeading: Shiv Jyoti Sr. Sec. School
         duration: 2012-2014
