@@ -150,8 +150,6 @@ resume:
             - "Details: Studied and applied the particle filter based approach
                 to SLAM on a 2D mobile rover system using April Tags as real
                 world references."
-      
-  
   projects:
     name: Projects
     cards:
