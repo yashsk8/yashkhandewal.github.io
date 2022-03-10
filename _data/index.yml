@@ -159,7 +159,7 @@ resume:
         description:
           location: San Diego, CA, USA
           points:
-            - "Github: <a href=\"https://github.com/yashskhandelwal/Covid_QA_Analysis\">"
+            - "Github: <a href=\"https://github.com/yashskhandelwal/Covid_QA_Analysis\">Covid_QA_Analysis</a>"
             - "Performed critical analysis on extractive question answering task by fine-tuning Covid-QA dataset on various transformer models such as BERT, RoBERTa, ALBERT, DistilBERT, and ELECTRA."
             - "Used libraries from Hugging-Face and PyTorch and SOTA v3-8 TPU hardware to fine-tune the models."
             - "Achieved a maximum F1 score of 68% and exact-match of 43% using fine-tuned ELECTRA, which is 40% better than the result published in the paper where the dataset was first introduced."
