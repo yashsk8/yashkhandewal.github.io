@@ -13,21 +13,15 @@ skills:
         value: 100
       - name: Java
         value: 100
-      - name: C
-        value: 66
-      - name: C++
-        value: 66
-      - name: HTML
-        value: 66
-      - name: CSS
-        value: 66
-      - name: JavaScript
-        value: 66
       - name: SQL
         value: 100
+      - name: C++
+        value: 66
 
   - name: Tools, Frameworks and Technologies
     skillSet:
+      - name: PyTorch
+        value: 66
       - name: Tensorflow
         value: 66
       - name: Scikit-Learn
@@ -36,26 +30,18 @@ skills:
         value: 66
       - name: Numpy
         value: 66
-      - name: Matplotlib and Seaborn
+      - name: Matplotlib/Seaborn/Plotly
         value: 66
-      - name: Pytorch
-        value: 33
-      - name: SpringBoot
-        value: 100
-      - name: Hibernate
-        value: 100
       - name: Containerization (Docker)
         value: 100
-      - name: Node.js
-        value: 66
-      - name: Express.js
-        value: 33    
   
-  - name: Conceptuals/Courses
+  - name: Concepts and Courses
     skillSet:
       - name: Machine Learning
         value: 66
       - name: Recommender Systems
+        value: 66
+      - name: Natural Langauge Processing
         value: 66
       - name: Deep Learning
         value: 66
@@ -63,7 +49,7 @@ skills:
         value: 66
       - name: Data-Structures
         value: 100
-      - name: Algoritms
+      - name: Algorithms
         value: 100
       - name: System Design
         value: 100
@@ -84,7 +70,7 @@ resume:
           points:
             - "Degree: MS"
             - "CGPA: <b>4.0/4.0</b>"
-            - "<i>Course(s):</i>: Recommender Systems & Web Mining (A+), Probabilistic Reasoning & Learning (A), Algorithm Design & Analysis (A+)"
+            - "<i>Course(s):</i>: Advanced Statistical NLP, Unsupervised Learning, Recommender Systems & Web Mining (A+), Probabilistic Reasoning & Learning (A), Algorithm Design & Analysis (A+)"
       - heading: IDD (B.Tech. + M.Tech.) in Electrical Engineering
         subHeading: Indian Institute of Technology (BHU)
         duration: Jul 2014 - Jun 2019
@@ -135,8 +121,8 @@ resume:
           points:
             - "<a href=\"http://coursera.org/verify/P2ZVPULCVHWQ\">See Credential</a>"   
             
-  experienceProjects:
-    name: Experience & Projects
+  experience:
+    name: Experience
     cards:
       - heading: "Software Engineer (Level 2)"
         subHeading: Apple India Pvt. Ltd.
@@ -150,25 +136,55 @@ resume:
                 myriad of projects and picked up tasks individually and led them
                 to fruition. My work here was highly extolled by my manager and
                 colleagues."
-      - heading: "List of Machine Learning (ML) Projects"
+      - heading: International Research Internship
+        subHeading: Kyushu University
+        duration: Jul 2017 - Aug 2017
+        description:
+          location: Fukuoka Prefecture, Japan
+          points:
+            - "Title: Simulation and Application of Particle Filter based SLAM"
+            - "Professor:
+                <a href=\"https://kyushu-u.pure.elsevier.com/en/persons/shinji-hokamoto\">Prof. Shinji Hokamoto
+                  (Department of Aeronautics and
+                  Astronautics, Kyushu University, Fukuoka, Japan)</a>"
+            - "Details: Studied and applied the particle filter based approach
+                to SLAM on a 2D mobile rover system using April Tags as real
+                world references."
+      
+  
+  projects:
+    name: Projects
+    cards:
+      - heading: "Critical Analysis of Transformer Models on COVID-QA Dataset"
         subHeading: UC San Diego
-        duration: Sep 2019 - Present
-        
+        duration: Feb 2022 - Mar 2022
         description:
           location: San Diego, CA, USA
           points:
-            - "Predict Customer Churn Rate using Linear Regression"
-            - "IsAlive prediction on Titanic dataset"
-      - heading: "List of Natural Language Processing (NLP) Projects"
+            - "Github: <a href=\"https://github.com/yashskhandelwal/Covid_QA_Analysis\">"
+            - "Performed critical analysis on extractive question answering task by fine-tuning Covid-QA dataset on various transformer models such as BERT, RoBERTa, ALBERT, DistilBERT, and ELECTRA."
+            - "Used libraries from Hugging-Face and PyTorch and SOTA v3-8 TPU hardware to fine-tune the models."
+            - "Achieved a maximum F1 score of 68% and exact-match of 43% using fine-tuned ELECTRA, which is 40% better than the result published in the paper where the dataset was first introduced."
+      - heading: "Resume screening and keyword extraction"
         subHeading: UC San Diego
-        duration: Sep 2019 - Present
+        duration: Dec 2021
         description:
           location: San Diego, CA, USA
           points:
-            - "Sentiment analysis on user review dataset"
-            - "Keyword extraction on academic papers dataset"
-            - "Resume screening on resume dataset"
-            - "Spelling autocorrect"           
+            - "Performed keyword extraction and job role multinomial classification on a 'Resume' dataset."
+            - "Used NLP techniques such as count vectorizer and tf-idf to identify keywords and skills essential to job role."
+            - "Applied and tested various classification models such as baseline LR, Random Forest, XGBoost, and MLP with word embeddings as features. Applied PCA to further reduce features."
+            - "Achieved a Balanced Accuracy Score of 92% post hyper-parameter tuning on XGBoost Classifier."           
+      - heading: "Fit prediction on cloth rental dataset"
+        subHeading: UC San Diego
+        duration: Oct 2021 - Nov 2021
+        description:
+          location: San Diego, CA, USA
+          points:
+            - "Worked on multinomial prediction for cloth fit (small, fit, large) based on past user and item interactions."
+            - "Did exploratory data analysis (EDA), cleanup, and preprocessing on 'RentTheRunway' cloth rental dataset."
+            - "Implemented various prediction models and techniques such as multinomial logistic regression, cosine similarity, sentiment analysis, and ensemble method."
+            - "Achieved an F1 score of 0.7 (0.17 better than the baseline 'predict always fit' model)."      
       - heading: M.Tech. Project & Thesis
         subHeading: Indian Institute of Technology, (BHU)
         duration: 2018-2019
@@ -199,20 +215,6 @@ resume:
                 <a href=\"https://www.iitbhu.ac.in/dept/eee/people/rksaketeee\">Prof. R. K. Saket (Department of
                   Electrical Engineering,
                   IIT(BHU), Varanasi)</a>"
-      - heading: International Research Internship
-        subHeading: Kyushu University
-        duration: Jul 2017 - Aug 2017
-        description:
-          location: Fukuoka Prefecture, Japan
-          points:
-            - "Title: Simulation and Application of Particle Filter based SLAM"
-            - "Professor:
-                <a href=\"https://kyushu-u.pure.elsevier.com/en/persons/shinji-hokamoto\">Prof. Shinji Hokamoto
-                  (Department of Aeronautics and
-                  Astronautics, Kyushu University, Fukuoka, Japan)</a>"
-            - "Details: Studied and applied the particle filter based approach
-                to SLAM on a 2D mobile rover system using April Tags as real
-                world references."
       - heading: DIH Project
         subHeading: Indian Institute of Technology, (BHU)
         duration: Jan 2016 - May 2016
@@ -232,7 +234,7 @@ resume:
             - "Details: Implemented Visual Odometry as a solution for the SLAM
                 Problem in a UAV using a monocular camera and Extended Kalman
                 filter (EKF) algorithm."
-  
+
   researchPaper:
     name: Research Paper
     cards:
