@@ -70,7 +70,7 @@ resume:
           points:
             - "Degree: MS"
             - "CGPA: <b>4.0/4.0</b>"
-            - "<i>Course(s):</i>: Advanced Statistical NLP, Unsupervised Learning, Recommender Systems & Web Mining (A+), Probabilistic Reasoning & Learning (A), Algorithm Design & Analysis (A+)"
+            - "<i>Course(s):</i>: Big Data Mining and Spark Analytics, Deep Generative Models, Advanced Statistical NLP, Unsupervised Learning, Recommender Systems & Web Mining, Probabilistic Reasoning & Learning"
       - heading: IDD (B.Tech. + M.Tech.) in Electrical Engineering
         subHeading: Indian Institute of Technology (BHU)
         duration: Jul 2014 - Jun 2019
