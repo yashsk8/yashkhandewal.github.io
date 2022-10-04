@@ -21,30 +21,30 @@ skills:
   - name: Tools, Frameworks and Technologies
     skillSet:
       - name: PyTorch
-        value: 66
+        value: 100
       - name: Tensorflow
         value: 66
       - name: Scikit-Learn
-        value: 66
+        value: 100
       - name: Pandas
-        value: 66
+        value: 100
       - name: Numpy
-        value: 66
+        value: 100
       - name: Matplotlib/Seaborn/Plotly
-        value: 66
+        value: 100
       - name: Containerization (Docker)
         value: 100
   
   - name: Concepts and Courses
     skillSet:
       - name: Machine Learning
-        value: 66
+        value: 100
       - name: Recommender Systems
         value: 66
       - name: Natural Langauge Processing
-        value: 66
+        value: 100
       - name: Deep Learning
-        value: 66
+        value: 100
       - name: Information Retrieval
         value: 66
       - name: Data-Structures
@@ -124,6 +124,13 @@ resume:
   experience:
     name: Experience
     cards:
+      - heading: "Data Scientist Intern"
+        subHeading: Indeed Inc.
+        duration: Jun 2022 - Sep 2022
+        description:
+          location: San Diego, CA, USA
+          points:
+            - "At Indeed, I worked with the Trust and Safety Engineering Data Insights team. I worked on updating critical fraud detection models with new features and push it to production. My new model achieved a 0.02 point increase in AUC, and reported an increase in recall in preliminary tests. Along the way, I worked on updating several data engineering pipeline infra tech debts which I encountered such as speeding up the data extraction pipeline by almost 75%."
       - heading: "Software Engineer (Level 2)"
         subHeading: Apple India Pvt. Ltd.
         duration: Jul 2019 - Present
